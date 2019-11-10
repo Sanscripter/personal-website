@@ -89,7 +89,7 @@ iframe {
   border: 0;
 }
 
-a{
+a {
   color: #f4e700;
 }
 
@@ -132,9 +132,57 @@ a:hover {
   /* background: #f9f9ff; */
 }
 
-.softer-background{
-  background-color: #222222;
+.about-background {
+  /* background-color: #181818; */
+  background-color: #1E1104;
 }
+
+.softer-background {
+  background-color: #1D1D1D;
+}
+
+.raisin-background {
+  background-color: #1F1F1F;
+}
+
+.licorice-background{
+  background: #151515;
+}
+
+.employer-image{
+  filter: grayscale(70%);
+  transition: all;
+}
+
+.employer-card a{
+  background-color: #1F1F1F;
+}
+
+.employer-card:hover .employer-image{
+  filter: unset;
+}
+
+.employer-card{
+  color: #656565 ;
+  transition: all;
+}
+
+.employer-card:hover{
+  color: #808080 ;
+}
+
+.employer-card h4{
+  color: #666666;
+  transition: all;
+}
+
+.employer-card:hover h4{
+  color: #FFD63D;
+  transition: all;
+}
+
+
+
 
 h1,
 h2,
@@ -2132,28 +2180,28 @@ i {
 
 .exprience-thumb {
   height: 100%;
-  min-height: 400px; 
+  min-height: 400px;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
-  filter: grayscale(100%);
+  filter: blur(2px) grayscale(100%);
   opacity: 0.8;
   transition: all;
 }
 
-.exprience-thumb:hover{
-   filter:unset;
-   opacity: unset; 
+.exprience-thumb:hover {
+  filter: unset;
+  opacity: unset;
 }
 
-.about-img{
+.about-img {
   background: #CCA328;
 }
 
 @media (max-width: 767px) {
   .mb-sm-20 {
     margin-bottom: 20px;
-  } 
+  }
 }
 
 .exprience-content {
@@ -2169,7 +2217,7 @@ i {
   font-size: 16px;
   font-weight: 400;
   color: #c0c0c0;
-  
+
   margin-bottom: 20px;
 }
 
@@ -2286,7 +2334,6 @@ i {
 }
 
 .service-area {
-  background: #f9faff;
   padding: 90px 0 120px 0;
 }
 
@@ -2690,37 +2737,39 @@ footer .footer-nav li a:hover {
   margin: 0;
 }
 
-.skill{
-  border-color: green !important ;
+.skill {
+  border-color: green !important;
 }
+
 .skill:hover .skill-bar .progress-bar {
-  animation: progress-bar-stripes 1s linear infinite;;
+  animation: progress-bar-stripes 1s linear infinite;
+  ;
 }
 
-  .backwardBorderTrain:before{
-    border-top: 1px solid rgb(245, 220, 0);
-    transition-timing-function: linear;
-  }
+.backwardBorderTrain:before {
+  border-top: 1px solid rgb(245, 220, 0);
+  transition-timing-function: linear;
+}
 
-  .backwardBorderTrain:after{
-    border-bottom: 1px solid rgb(245, 220, 0);
-    transition-timing-function: ease-in;
-  }
+.backwardBorderTrain:after {
+  border-bottom: 1px solid rgb(245, 220, 0);
+  transition-timing-function: ease-in;
+}
 
-  .backwardBorderTrain .ui-border-element:before{
-    border-left: 1px solid rgb(245, 220, 0);
-    transition-timing-function: ease-out;
-  }
+.backwardBorderTrain .ui-border-element:before {
+  border-left: 1px solid rgb(245, 220, 0);
+  transition-timing-function: ease-out;
+}
 
-  .backwardBorderTrain .ui-border-element:after{
-     border-right: 1px solid rgb(245, 220, 0);
-     transition-timing-function: ease-in-out;
-  }
+.backwardBorderTrain .ui-border-element:after {
+  border-right: 1px solid rgb(245, 220, 0);
+  transition-timing-function: ease-in-out;
+}
 
-  .absolute{
-    position: absolute !important;
-  }
+.absolute {
+  position: absolute !important;
+}
 
-  .relative{
-    position: relative !important;
-  }
+.relative {
+  position: relative !important;
+}
