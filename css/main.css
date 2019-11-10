@@ -2132,10 +2132,22 @@ i {
 
 .exprience-thumb {
   height: 100%;
-  min-height: 400px;
+  min-height: 400px; 
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: all;
+}
+
+.exprience-thumb:hover{
+   filter:unset;
+   opacity: unset; 
+}
+
+.about-img{
+  background: #CCA328;
 }
 
 @media (max-width: 767px) {
@@ -2703,4 +2715,12 @@ footer .footer-nav li a:hover {
   .backwardBorderTrain .ui-border-element:after{
      border-right: 1px solid rgb(245, 220, 0);
      transition-timing-function: ease-in-out;
+  }
+
+  .absolute{
+    position: absolute !important;
+  }
+
+  .relative{
+    position: relative !important;
   }
